@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop-for</title>
+</head>
+<body>
+    <p id="num"></p>
+    <script>
+          let out_num = document.getElementById('num');
+          let p = ' ';
+          for (let i=1; i<=8; i=i+2) {
+              console.log(i);
+              p = p + i + ' ';
+          }
+          out_num.innerHTML = p;
+    </script>
+</body>
+</html>
